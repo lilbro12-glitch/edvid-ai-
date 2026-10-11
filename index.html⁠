@@ -1,0 +1,92 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdVid AI - AI Powered Educational Video Platform</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0f172a;
+            color: #f8fafc;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            padding: 40px 20px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #38bdf8;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #94a3b8;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .badge {
+            background-color: #1e293b;
+            color: #38bdf8;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            border: 1px solid #334155;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        .feature-card {
+            background-color: #1e293b;
+            padding: 20px;
+            border-radius: 10px;
+            width: 220px;
+            border: 1px solid #334155;
+        }
+        .feature-card h3 {
+            color: #f1f5f9;
+            margin-bottom: 10px;
+        }
+        .feature-card p {
+            font-size: 0.95rem;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="badge">Powered by Claude 3.5 Models</div>
+        <h1>Transform Educational Content into Engaging Videos</h1>
+        <p>EdVid AI leverages advanced Claude LLM models to automatically convert text, lesson plans, and complex educational topics into script outlines, visual storyboards, and video production workflows.</p>
+        
+        <div class="features">
+            <div class="feature-card">
+                <h3>Smart Scripting</h3>
+                <p>Generates pedagogical scripts tailored for students.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Storyboard AI</h3>
+                <p>Creates step-by-step visual scenes instantly.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Automation</h3>
+                <p>Speeds up educational video creation process.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
